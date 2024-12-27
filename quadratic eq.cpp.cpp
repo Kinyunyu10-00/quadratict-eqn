@@ -12,3 +12,6 @@ void solveQuadratic(double a, double b, double c) {
           root2 = (-b - sqrt(discriminant)) / (2*a);
         cout << "Roots are real and different." << endl;
         cout << "Root 1: " << root1 << endl;
+           cout << "Root 2: " << root2 << endl;
+    }
+    else if (discriminant == 0) {
